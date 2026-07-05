@@ -1,8 +1,6 @@
 # Espresso Analysis
 
-A small applied science project for coffee lovers.
-Against my own logged espresso shots on a **DeLonghi La Specialista
-Arte** (9-bar pump, PID boiler, conical burr grinder, manual tamp).
+A small applied science project exploring espresso brewing dynamics using my own logged shots on a DeLonghi La Specialista Arte (9-bar pump, PID boiler, conical burr grinder, manual tamp).
 
 ## What this is
 
@@ -27,13 +25,7 @@ Five of my own brewed and tasted shots from an orthogonal array (more or less, s
 
 ## Running it yourself
 
-```bash
-pip install nbformat numpy pandas sympy scipy matplotlib jupyter
-python3 build_notebook.py
-jupyter nbconvert --to notebook --execute lcf_espresso_oracle.ipynb --output lcf_espresso_oracle.ipynb
-```
-
-or open `lcf_espresso_oracle.ipynb` directly in Jupyter/JupyterLab and
+`lcf_espresso_oracle.ipynb` directly in Jupyter/JupyterLab and
 run all cells.
 
 ## Where this is weakest, and what would fix it (Section 8 in the notebook)
